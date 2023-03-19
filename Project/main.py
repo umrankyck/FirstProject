@@ -1,5 +1,12 @@
 import streamlit as st
-import numpy as np
 
-st.title("Welcome to my first web")
+
+header = st.beta_container()
+dataset = st.beta_container()
+features = st.beta_container()
+modelTraining = st.beta_container()
+
+with header:
+	st.title('Welcome to my first project!')
+
 
