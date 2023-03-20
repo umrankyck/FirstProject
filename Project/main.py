@@ -17,8 +17,8 @@ background-repeat: repeat;
 """
 st.markdown("<h1 style='text-align: center;'> 'Kullanıcı Girişi'</h1>",unsafe_allow_html=True)
 with st.form("Form 1" , clear_on_submit=True):
-f_name=col1,col2=st.columns(2)
-l_name=col1.text_input("Ad")
+f_name=col1st.columns(2)
+l_name=col2.text_input("Ad")
 col2.text_input("Soyad")
 st.text_input("Parola")
 st.text_input("Parolayı Onaylayın")
