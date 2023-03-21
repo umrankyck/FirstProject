@@ -16,25 +16,7 @@ background-repeat: repeat;
 </style>
 """
  
-"""
-st.markdown("<h1 style='text-align: center;'> 'Kullanıcı Girişi'</h1>",unsafe_allow_html=True)
-with st.form("Form 1" , clear_on_submit=True):
-f_name=col1,col2=st.columns(2)
-l_name=col1.text_input("Ad")
-col2.text_input("Soyad")
-st.text_input("Parola")
-st.text_input("Parolayı Onaylayın")
-day,month,years= st.columns(3)
-day.text_input("Gün")
-month.text_input("Ay")
-years.text_input("Yıl")
-s_state=st.form_submit_button("Gönder")
-if s_state:
-    if f_name == "" and l_name =="":
-            st.warning("Lütfen yukarıdaki alanları doldurunuz!")
-    else:
-            st.success("Başarılı!")
-"""
+
  
  
  
